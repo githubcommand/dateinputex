@@ -7,7 +7,7 @@ const InfoForm = () => {
     birthdate: '', // expecting dd/mm/yyyy
     age: 0,
   });
-
+ // handliung event
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
